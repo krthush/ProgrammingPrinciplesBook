@@ -1,5 +1,5 @@
 ﻿  Calculator01.cpp
-C:\Users\krthush\source\repos\ProgrammingPrinciplesBook\Chapter 6\Calculator01\Calculator01\Calculator01.cpp(208): warning C4715: 'get_value': not all control paths return a value
-C:\Users\krthush\source\repos\ProgrammingPrinciplesBook\Chapter 6\Calculator01\Calculator01\Calculator01.cpp(177): warning C4715: 'Token_stream::get': not all control paths return a value
-C:\Users\krthush\source\repos\ProgrammingPrinciplesBook\Chapter 6\Calculator01\Calculator01\Calculator01.cpp(272): warning C4715: 'primary': not all control paths return a value
+C:\Users\krthush\source\repos\ProgrammingPrinciplesBook\Chapter 6\Calculator01\Calculator01\Calculator01.cpp(103): warning C4715: 'Token_stream::get': not all control paths return a value
+C:\Users\krthush\source\repos\ProgrammingPrinciplesBook\Chapter 6\Calculator01\Calculator01\Calculator01.cpp(135): warning C4715: 'primary': not all control paths return a value
+  LINK : C:\Users\krthush\source\repos\ProgrammingPrinciplesBook\Chapter 6\Calculator01\Debug\Calculator01.exe not found or not built by the last incremental link; performing full link
   Calculator01.vcxproj -> C:\Users\krthush\source\repos\ProgrammingPrinciplesBook\Chapter 6\Calculator01\Debug\Calculator01.exe
