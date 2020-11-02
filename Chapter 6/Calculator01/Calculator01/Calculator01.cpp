@@ -257,6 +257,19 @@ double primary()     // read and evaluate a Primary
         if (t.kind != ')') error("')' expected");
         return d;
     }
+    case name:
+    {
+        Token next = ts.get();
+        if (next.kind == '=') {	// handle name = expression
+            double d = expression();
+            set_value(t.name, d);
+            return d;
+        }
+        else {
+            ts.putback(next);		// not an assignment: return the value
+            return get_value(t.name); // return the variable's value
+        }
+    }
     case number:
         return t.value;  // return the number's value
     case '-': 
@@ -336,8 +349,8 @@ double declaration() // assume we have seen "let”
     if (t.kind != name) error ("name expected in declaration"); 
     string var_name = t.name; 
     
-    Token t2 = ts.get(); 
-    if (t2.kind != '=') error("= missing in declaration of ", var_name); 
+    Token next = ts.get();
+    if (next.kind != '=') error("= missing in declaration of ", var_name);
     
     double d = expression();
     define_name(var_name, d); 
