@@ -1,0 +1,4 @@
+﻿  Calculator00.cpp
+C:\Users\krthush\source\repos\ProgrammingPrinciplesBook\Chapter 6\Calculator00\Calculator00\Calculator00.cpp(72): warning C4715: 'primary': not all control paths return a value
+C:\Users\krthush\source\repos\ProgrammingPrinciplesBook\Chapter 6\Calculator00\Calculator00\Calculator00.cpp(44): warning C4715: 'get_token': not all control paths return a value
+  Calculator00.vcxproj -> C:\Users\krthush\source\repos\ProgrammingPrinciplesBook\Chapter 6\Calculator00\Debug\Calculator00.exe

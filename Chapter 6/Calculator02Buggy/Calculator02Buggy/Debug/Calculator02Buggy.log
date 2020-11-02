@@ -1,0 +1,5 @@
+﻿  Calculator02Buggy.cpp
+C:\Users\krthush\source\repos\ProgrammingPrinciplesBook\Chapter 6\Calculator02Buggy\Calculator02Buggy\Calculator02Buggy.cpp(124,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\krthush\source\repos\ProgrammingPrinciplesBook\Chapter 6\Calculator02Buggy\Calculator02Buggy\Calculator02Buggy.cpp(107): warning C4715: 'Token_stream::get': not all control paths return a value
+C:\Users\krthush\source\repos\ProgrammingPrinciplesBook\Chapter 6\Calculator02Buggy\Calculator02Buggy\Calculator02Buggy.cpp(172): warning C4715: 'primary': not all control paths return a value
+  Calculator02Buggy.vcxproj -> C:\Users\krthush\source\repos\ProgrammingPrinciplesBook\Chapter 6\Calculator02Buggy\Debug\Calculator02Buggy.exe

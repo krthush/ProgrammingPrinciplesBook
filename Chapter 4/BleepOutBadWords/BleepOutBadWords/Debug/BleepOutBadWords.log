@@ -1,0 +1,4 @@
+﻿  BleepOutBadWords.cpp
+C:\Users\krthush\source\repos\ProgrammingPrinciplesBook\Chapter 4\BleepOutBadWords\BleepOutBadWords\BleepOutBadWords.cpp(17,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\krthush\source\repos\ProgrammingPrinciplesBook\Chapter 4\BleepOutBadWords\BleepOutBadWords\BleepOutBadWords.cpp(21,21): warning C4018: '<': signed/unsigned mismatch
+  BleepOutBadWords.vcxproj -> C:\Users\krthush\source\repos\ProgrammingPrinciplesBook\Chapter 4\BleepOutBadWords\Debug\BleepOutBadWords.exe

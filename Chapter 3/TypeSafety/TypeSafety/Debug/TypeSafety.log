@@ -1,0 +1,3 @@
+﻿  TypeSafety.cpp
+C:\Users\krthush\source\repos\ProgrammingPrinciplesBook\Chapter 3\TypeSafety\TypeSafety\TypeSafety.cpp(7,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  TypeSafety.vcxproj -> C:\Users\krthush\source\repos\ProgrammingPrinciplesBook\Chapter 3\TypeSafety\Debug\TypeSafety.exe

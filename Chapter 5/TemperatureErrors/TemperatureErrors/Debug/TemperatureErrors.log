@@ -1,0 +1,3 @@
+﻿  TemperatureErrors.cpp
+C:\Users\krthush\source\repos\ProgrammingPrinciplesBook\Chapter 5\TemperatureErrors\TemperatureErrors\TemperatureErrors.cpp(20,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  TemperatureErrors.vcxproj -> C:\Users\krthush\source\repos\ProgrammingPrinciplesBook\Chapter 5\TemperatureErrors\Debug\TemperatureErrors.exe
