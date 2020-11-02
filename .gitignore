@@ -33,3 +33,11 @@
 *.db-shm
 *.opendb
 *.db-wal
+*.log
+*.tlog
+*.pdb
+*.ilk
+*.pdb
+*.idb
+*.db
+*.suo
