@@ -26,10 +26,30 @@
 //}
 
 /* q3 */
+//int main()
+//{
+//    //Chrono::Date today { 2004, 13, -5 };// oops!
+//    Chrono::Date today{ 1979, 6, 25 };
+//    Chrono::Date tomorrow = today;
+//    tomorrow.add_day(tomorrow, 1);
+//    std::cout << "Today: " << today << " Tomorrow: " << tomorrow;
+//}
+
+/* q4 */
+//int main()
+//{
+//    //Chrono::Date today { 2004, 13, -5 };// oops!
+//    Chrono::Date today{ 1979, Chrono::Month::jun, 25 };
+//    Chrono::Date tomorrow = today;
+//    tomorrow.add_day(tomorrow, 1);
+//    std::cout << "Today: " << today << " Tomorrow: " << tomorrow;
+//}
+
+/* q5 */
 int main()
 {
     //Chrono::Date today { 2004, 13, -5 };// oops!
-    Chrono::Date today{ 1979, 6, 25 };
+    Chrono::Date today{ 1979, Chrono::Month::jun, 25 };
     Chrono::Date tomorrow = today;
     tomorrow.add_day(tomorrow, 1);
     std::cout << "Today: " << today << " Tomorrow: " << tomorrow;
